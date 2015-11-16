@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="50dp" />
+
+        <DatePicker
+            android:id="@+id/datePickerMedication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_vertical|center_horizontal"
+            android:layout_marginTop="117dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="30dp"
+            android:text="Choose Type of Medicine:" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="100dp"
+            android:text="Choose Medication Administration Date:" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:text="Medicine Schedule"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+
+        <TextView
+            android:id="@+id/Dosage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="383dp"
+            android:text="Dosage:" />
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/Delivery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|right|center_vertical"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="383dp"
+            android:text="Method of Delivery:" />
+
+        <Button
+            android:id="@+id/buttonAddMedication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="370dp"
+            android:text="Add Medication" />
+
+
+
+
+        <TextView
+            android:id="@+id/txtMsgBoxMed"
+            android:layout_width="264dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_vertical|center_horizontal"
+            android:layout_marginTop="443dp"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="5dp"
+            android:text="Back" />
+
+
+        <TimePicker
+            android:id="@+id/timePickerMedication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="65dp" />
+
+
+
+
+        <Spinner
+            android:id="@+id/Spinner01"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="50dp" />
+
+
+
+
+
+        <EditText
+            android:id="@+id/editTextDosage"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:layout_marginBottom="60dp"
+            android:layout_marginLeft="5dp"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <Spinner
+            android:id="@+id/spinnerUnits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="50dp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_vertical|center"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="383dp"
+            android:text="Units:" />
+
+    </FrameLayout>
+
+</LinearLayout>

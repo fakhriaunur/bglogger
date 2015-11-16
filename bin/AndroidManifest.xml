@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.BgLogger"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.BgLogger.BgLoggerActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            </activity>
+            
+            <activity android:name="com.BgLogger.Foodlog6Activity"
+                android:theme="@android:style/Theme.NoTitleBar"></activity>
+        
+         <activity android:name="com.BgLogger.foodlist"
+             android:theme="@android:style/Theme.NoTitleBar"></activity>
+         
+         <activity android:name="com.BgLogger.mealcalculatorActivity"
+             android:theme="@android:style/Theme.NoTitleBar"></activity>
+         
+         <activity android:name="com.BgLogger.activity.glucose.AddGlucoseLogActivity"
+             android:theme="@android:style/Theme.NoTitleBar"></activity>
+         
+         <activity android:name="com.BgLogger.mealReportActivity"
+             android:theme="@android:style/Theme.NoTitleBar"></activity>
+         
+          <activity android:name="com.BgLogger.bloodReportActivity"
+              android:theme="@android:style/Theme.NoTitleBar"></activity>
+         
+            <activity android:name="com.BgLogger.contactReportActivity"
+              android:theme="@android:style/Theme.NoTitleBar"></activity>
+          
+           <activity android:name="com.BgLogger.SaveContact"
+              android:theme="@android:style/Theme.NoTitleBar"></activity>
+            
+           <activity android:name="com.BgLogger.ViewContacts"
+              android:theme="@android:style/Theme.NoTitleBar"></activity>
+           
+         <activity android:name="com.BgLogger.exerciseReportActivity"
+             android:theme="@android:style/Theme.NoTitleBar"></activity>
+         <activity android:name="com.BgLogger.activity.insulin.AddInsulinLogActivity" android:theme="@android:style/Theme.NoTitleBar"></activity>
+         
+                   <activity android:name="com.BgLogger.SaveNote"
+              android:theme="@android:style/Theme.NoTitleBar"></activity>
+            
+           <activity android:name="com.BgLogger.ViewNotes"
+              android:theme="@android:style/Theme.NoTitleBar"></activity>
+         
+                <activity android:name="com.BgLogger.ExerciseActivity"
+             android:theme="@android:style/Theme.NoTitleBar"></activity>
+          
+                    <activity android:name="com.BgLogger.MedicineActivity"
+             android:theme="@android:style/Theme.NoTitleBar"></activity>
+         
+         
+         
+         
+    </application>
+    
+     
+
+</manifest>

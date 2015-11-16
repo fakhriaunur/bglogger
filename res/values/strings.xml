@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BgLoggerActivity!</string>
+    <string name="app_name">BgLogger</string>
+    <string name="plus_button_content_description">Add Record</string>
+    <string name="glucose_reading_label">Blood Test Result: </string>
+    <string name="glucose_type_label">Result Type: </string>
+    <string name="logo_content_description">Logo</string>
+    <string name="submit_button_text">Submit</string>
+    <string name="add_record_button_text">Add A Record</string>
+    <string name="insulin_dosage_label">Dosage</string>
+    <string name="insulin_type_label">Insulin Type: </string>
+    <string name="insulin_units_label">Units</string>
+
+</resources>
