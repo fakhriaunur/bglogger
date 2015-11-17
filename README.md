@@ -1,5 +1,7 @@
 # bglogger
 Blood Glucose Logger
+
+
 1.1	Description 
 
 bglogger is an application to be used by people with diabetes. It can monitor the blood glucose levels several times a day. 
